@@ -4,6 +4,7 @@ import React from 'react';
 import config from 'configs/app';
 
 import DeFiDropdown from './DeFiDropdown';
+import NavLinks from './navlinks';
 import NetworkMenu from './NetworkMenu';
 import Settings from './settings/Settings';
 import TopBarStats from './TopBarStats';
@@ -20,6 +21,7 @@ const TopBar = () => {
       alignItems="center"
     >
       <TopBarStats/>
+      <NavLinks/>
       <Flex alignItems="center">
         { config.features.deFiDropdown.isEnabled && (
           <>

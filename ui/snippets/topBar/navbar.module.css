@@ -1,0 +1,18 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.links::marker {
+  content: "";
+}
+
+.links:hover {
+
+}
+
+.buttonsFont {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
